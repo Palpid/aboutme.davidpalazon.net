@@ -1,0 +1,283 @@
+baseURL = "http://aboutme.davidpalazon.net"
+languageCode = "es"
+title = "Acerca de Mi"
+theme = "hugo-orbit-theme"
+googleAnalytics = "UA-130603541-1"
+
+# Do not build files for websites. Need them? Set to false
+disableRSS = true
+disableSitemap = true
+disable404 = false
+
+[params]
+
+# Meta
+    description = "Hugo Responsive Resume/CV Theme for Developers"
+    author = "Pavel Kanyshev"
+
+# Theme styles
+
+    # The original template comes with 6 colour schemes. You may choose styles below.
+    # "styles.css", "styles-2.css", "styles-3.css", "styles-4.css", "styles-5.css", "styles-6.css"
+    # are available. Also the source LESS files are included so
+    # it’s quick and easy to change the styling and colour scheme.
+
+    styles = "styles.css"
+
+# Sidebar sections
+
+    # Profile section
+    [params.profile]
+        name = "David Palazón"
+        tagline = "Consultor Funcional y Técnico SAP Business ONE"
+        avatar = "profile.png"
+
+    # Contact section
+    [params.contact]
+        enable = true
+
+        [[params.contact.list]]
+        class = "email"
+        icon = "fa-envelope"
+        url = "mailto: david@davidpalazon.net"
+        title = "david@davidpalazon.net"
+
+        [[params.contact.list]]
+        class = "phone"
+        icon = "fa-phone"
+        url = "tel:+34610239756"
+        title = "+34610239756"
+
+        [[params.contact.list]]
+        class = "website"
+        icon = "fa-globe"
+        url = "//davidpalazon.net"
+        title = "davidpalazon.net"
+
+        [[params.contact.list]]
+        class = "linkedin"
+        icon = "fa-linkedin"
+        url = "//linkedin.com/in/david-palaz%C3%B3n-bermudez-b34a0a17/"
+        title = "linkedin.com/david-palazon-bermudez"
+
+   #     [[params.contact.list]]
+   #     class = "github"
+   #     icon = "fa-github"
+   #     url = "//github.com/username"
+   #     title = "github.com/username"
+
+   #     [[params.contact.list]]
+   #     class = "twitter"
+   #     icon = "fa-twitter"
+   #     url = "//twitter.com/username"
+   #     title = "@twittername"
+
+    # Education section
+    [params.education]
+        enable = true
+        title = "Educacion"
+
+        [[params.education.list]]
+        degree = "Técnico Especialista Equipos Informáticos."
+        college = "Instituto Politécnico de formación profesional “COMTE DE RIUS” (Tarragona)"
+       # dates = "2007 - 2011"
+
+        [[params.education.list]]
+        degree = "Ingeniería Técnica en Informática de Sistemas"
+        college = "Universidad Rovira i Virgili (Tarragona)"
+       # dates = "2007 - 2011"
+
+
+        [[params.education.list]]
+        degree = "Ingeniería Técnica en Informática de Gestión."
+        college = "Escuela Universitaria Politécnica de Vilanova y la Geltrú (UPC)"
+        #dates = "2006 - 2010"
+
+
+    # Languages section
+    [params.language]
+        enable = true
+        title = "Languages"
+
+        [[params.language.list]]
+        language = "English"
+        level = "Professional"
+
+        [[params.language.list]]
+        language = "French"
+        level = "Professional"
+
+        [[params.language.list]]
+        language = "Castellano"
+        level = "Nativo"
+
+        [[params.language.list]]
+        language = "Catalan"
+        level = "Nativo"
+
+
+    # Interests section
+    [params.interests]
+        enable = true
+        title = "Interests"
+
+        [[params.interests.list]]
+        interest = "Climbing"
+
+        [[params.interests.list]]
+        interest = "Snowboarding"
+
+        [[params.interests.list]]
+        interest = "Cooking"
+
+# Main body sections
+
+    # You may use markdown in summary, details and intro fields. But don't overdose, it's resume!:)
+
+    # Summary section
+    [params.summary]
+        enable = true
+        icon = "fa-user"
+        title = "Acerca de Mi"
+        summary = "Desde los 8 años he sido un apasionado de las técnologias y del desarrollo en general. Me considero una persona dinámica y emprendedora. Soy un gran autodidacta siempre dispuesto a aprender de los demás y a compartir mis conocimientos con todo aquel que le pueda interesar. Me encanta el trabajo en equipo y el compañerismo. A nivel profesional estoy en el mundo de la consultoria SAP tanto a nivel funcional como técnico. Además mi amplia experiencia en el área de sistemas me permite interactuar con los profesionales de esta área usando su mismo lenguaje."
+
+    # Experiences section
+    [params.experiences]
+        enable = true
+        icon = "fa-briefcase"
+        title = "Experiencias"
+
+        [[params.jobs.list]]
+        position = "ERP Specialist"
+        dates = "Marzo 2016 - Actualidad"
+        company = "Etnia Barcelona, Esplugas de Llobregat"
+        details = "Mi incorporación en Etnia Barcelona fue como Consultor Senior en SAP Business One entrando a formar parte de un equipo de 5 personas que como yo vienen de consultoria con años de experiencia. Mis funciones son tanto de proyectos en los que hago de  funcional como técnicos.\n  También colaboramos con los equipos de DIGITAL integrando ERP con nuestras plataformas B2B y B2C realizadas desde 0 en PHP.\n Además de realizar procesos de integración de nuestro ERP con otros productos como son Openbravo para nuestro Flagship y con 3CX"
+
+
+        [[params.jobs.list]]
+        position = "Responsable Departmento IT"
+        dates = "Junio 2013 - Marzo 2016"
+        company = "Medcomgroup – Medcomtech – Medcomflow – MedcomAdvance, Viladecans"
+        details = "Después de haber estado como Consultor externo durante 2 años paso a formar parte del personal de  Medcomtech  como responsable del departamento de IT.\n\n En el momento de mi incorporación a Medcomtech  es  una empresa con areas fuertemente informatizadas **(servicios como el correo corporativo, la web , el software de gestión, EDI, FACTURACIÓN ELECTRONICA)** pero que también tenia fuertes deficiencias en la parte del area de sistemas. \n Mis tareas en la empresa fueron sobretodo de gestión de los proveedores tanto de hardware como de servicios y de reorganización de la infraestrucutura de red y servicios.\n Algunos de los cambios realizados fue la sustitución del anterior partner de SAP por otro especializado en SAP Business One y con una metodologia que los hacia muy agiles a los cambios. \nTambién se sustituyo a la empresa que nos daban los servicios DIGITALES  la web llevaba años sin cambios aunque pagabamos unos rigurosos mantenimientos y se decide empezar a utilizar el SEO en la web corporativa para tener una mayor visibilidad.\n\n Durante esos tres años también  tuve la oportunidad de implantar SAP en nuestras filiales de Republica Dominicana , Portugal e Italia con sus peculiaridades de logística y fiscalidad caracteristicas de su localización.\n Después de esto el proyecto se estanca. Llega un momento en que como comentaba antes me encuentro estancado y sin medios para crecer así que decido buscar un nuevo proyecto más motivador."
+
+        [[params.jobs.list]]
+        position = "Consultor SAP y EXACT GLOBE/SYNERGY"
+        dates = "2011-2013"
+        company = "Advance Group, Barcelona"
+        details = "La empresa donde estaba anteriormente trabajando cesa la actividad y traspasa todos los clientes (incluidos sus desarrollos) a Software i Suport Informàtic.\nDentro de ese traspaso también se me traspasa a mi como persona conocedora tanto de la parte técnica como de la funcional de todos los proyectos de Infolan. \n\nEn ese momento no me siento atraido por el proyecto debido a inquietudes mias personales. Asi que la cuando informo de mi intención de marchar (ya habia encontrado una oferta mejor) me ofrece como contraoferta la formación y la certificación de otros dos productos **Exact Globe** y **Exact Synergy** además de la posibilidad de hacer consultoria funcional de estos productos.\n\n Después de esta oferta decido continuar y aporto un framework desarrollado en mi tiempo libre realizado en la anterior empresa que permitio que mis compañeros  que eran programadores de .NET programaran en SAP business ONE sin necesidad de conocer la UI Api ni tampoco la totalidad de la DI API. Durante este periodo llevo proyectos de las dos plataformas aunque estaba más enfocado a SAP business ONE."
+        
+        [[params.jobs.list]]
+        position = "Consultor SAP"
+        dates = "2006-2011"
+        company = "Infolan, Barcelona"
+        details = "Después de que mi anterior empresa cesase la actividad me incorporo a Infolan en un equipo de 8 personas con mucha experiencia en grandes sistemas (AS400 y SAP R3) recomendado por un colaborador autonomo con el que habia trabajado muchos años.\n\nEste mismo equipo habia sido de los primeros en instalar un SAP Business ONE en España. En aquel momento los clientes tenian las versiones 6.5 y 2004. \n\n Durante 8 meses estuve dando servicio a mi anterior empresa que me subcontrato para realizar un traspado ordenado de los clientes. En infolan pude formar parte de un equipo más parecido a un equipo Ágil actual que un equipo de consultoria a la vieja usanza. Y fueron ellos los que me ensañarón lo que puede hacer un equipo compenetrado.\n\nAqui inicio mi trayectoria profesional con SAP producto del que me enamoré y aún lo sigo. "
+
+        [[params.jobs.list]]
+        position = "Consultor Producción y programador"
+        dates = "2004-2006"
+        company = "TELEFONIA E INFORMATICA INTEGRADA S,L."
+        details = "Toma de Requerimientos, análisis, implantación del ERP R.P.S del grupo Ibermática en empresas del sector de la automoción y  distribución.<br> • Programación de personalizaciones para el ERP R.P.S con VBA y Visual Basic 6.0 (generación OCX)<br> . Reporting con Crystal Eeports. <br>• Programación e implantación de específicos para la integración con almacenes automatizados de los tipos transelevadores de cajas y de carrusel. <br>• Administración,mantenimiento MSSQL 2000 y MSSQL 2005. Programación en T-SQL.Lo que realmente hizo fue cerrar el departamento de ERP (RPS, Axapta, Sage) y continuo solo con la actividad de Sistemas."
+
+        [[params.jobs.list]]
+        position = "Responsable Departamento Informática"
+        dates = "1997-2005"
+        company = "PRENSAS Y MONTAJES INDUSTRIALES S.A. "
+        details = "• Encargado de la compra de fungibles y equipos del parque informático.• Formación y soporte del personal en aplicaciones ofimáticas. • Administración de servidores corporativos y de comunicaciones (Windows 2000, 2003 y NT 4.0 ,Exchange y Linux Gentoo, Novell Netware), Administrador de servidores Samba.• Mantenimiento y personalización del ERP corporativo en lenguaje X-Base. Modificación y personalización MRP.• Desarrollo de nuevas aplicaciones para los departamentos de logística y producción en Borland Delphi • Personal de apoyo en los departamentos de logística , producción y finanzas."
+
+        [[params.jobs.list]]
+        position = "Técnico Sistemas Linux"
+        dates = "1996"
+        company = "COMPLEIX EDUCATIU DE TARRAGONA."
+        details = "• Instalación y configuración de servidor Linux RedHat (servidor RAS de 8 líneas telefónicas)<br>• Instalación y administración del servidor Web (Apache) , correo electrónico (qmail).<br>• Desarrollo de aplicación para el envió y gestión incidencias para el departamento de mantenimiento HTML/PHP para la parte servidor y Borland Delphi para la parte cliente<br>"
+
+        [[params.jobs.list]]
+        position = "Profesor Ofimática y Administrador Red."
+        dates = "1995"
+        company = "GREMIO DE LA CONSTRUCCION DE TARRAGONA. (Fegco)"
+        details = "Profesor Ofimática y Administrador Red,GREMIO DE LA CONSTRUCCION DE TARRAGONA.<br>• Profesor de ofimática (Word, Excel, PowerPoint, Windows) para el Forcem.<br>• Fui contratado también para auditar y reconfigurar la Red Interna Novell Netware 3.11"
+
+        [[params.jobs.list]]
+        position = "Técnico Informático."
+        dates = "1993-1994"
+        company = "MASTER INFORMATICA I MUNTATGES S.L."
+        details = "• Montaje e instalación de equipos informáticos.<br>• Instalación y configuración de redes en entorno Novell Netware."
+
+        [[params.jobs.list]]
+        position = "Técnico Fotocopiadoras e Impresión."
+        dates = "1992"
+        company = "TARRAGONA COMPUTER S.L."
+        details = "Durante el periodo que estuve en la empresa me dedique a la reparación y mantenimiento de los equipos de alquiler y venta de segunda mano que la empresa comercializaba."
+
+    # Projects section
+    [params.projects]
+        enable = false
+        icon = "fa-archive"
+        title = "Projects"
+        intro = "**You can list your side projects or open source libraries in this section.** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus"
+
+        [[params.projects.list]]
+        title = "Hugrid"
+        url = "https://github.com/aerohub/hugrid"
+        tagline = "Grid theme for Hugo. It's a kind of boilerplate to perform anyone or anything quickly. Portfolio, collection, bookmarks, contacts and so on"
+
+        [[params.projects.list]]
+        title = "Simple FAQ Theme for Hugo"
+        url = "https://github.com/aerohub/hugo-faq-theme"
+        tagline = "Simple FAQ Theme for Hugo. You may use this theme for building very simple FAQs or note lists."
+
+        [[params.projects.list]]
+        title = "Hugo Identity"
+        url = "https://github.com/aerohub/hugo-identity-theme"
+        tagline = "Little profile/card-style template for Hugo."
+
+        [[params.projects.list]]
+        title = "Orbit"
+        url = "https://github.com/aerohub/hugo-orbit-theme"
+        tagline = "Hugo Resume/CV Theme for Developers."
+
+        [[params.projects.list]]
+        title = "Me"
+        url = "https://github.com/aerohub/hugo-me-theme"
+        tagline = "A simple responsive Hugo theme for personal site."
+
+    # Skills section
+    [params.skills]
+        enable = false
+        icon = "fa-rocket"
+        title = "Skills & Proficiency"
+
+        [[params.skills.list]]
+        skill = "Python & Django"
+        level = "98%"
+                
+        [[params.skills.list]]
+        skill = "Javascript & jQuery"
+        level = "98%"
+
+        [[params.skills.list]]
+        skill = "Angular"
+        level = "95%"
+
+        [[params.skills.list]]
+        skill = "HTML5 & CSS"
+        level = "95%"
+
+        [[params.skills.list]]
+        skill = "Ruby on Rails"
+        level = "75%"
+
+        [[params.skills.list]]
+        skill = "Sketch & Photoshop"
+        level = "60%"
+
+    # Footer section
+
+    # The original template is released under the Creative Commons Attribution 3.0 License.
+    # Please keep the original attribution link when using for your own project.
+    # If you'd like to use the template without the attribution,
+    # you can check out other license options via template author's website: themes.3rdwavemedia.com
+    # 
+    # As for Hugo port you may rewrite the "Ported for..." line with setting your name below.
+
+    [params.footer]
+        copyright = "David Palazón 2018"
