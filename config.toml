@@ -1,19 +1,19 @@
-baseURL = "http://aboutme.davidpalazon.net"
-languageCode = "es"
+baseURL = "http://aboutme.davidpalazon.net/"
+languageCode = "es-ES"
 title = "Acerca de Mi"
 theme = "hugo-orbit-theme"
 googleAnalytics = "UA-130603541-1"
 
 # Do not build files for websites. Need them? Set to false
-disableRSS = true
-disableSitemap = true
+disableRSS = false
+disableSitemap = false
 disable404 = false
 
 [params]
 
 # Meta
-    description = "Hugo Responsive Resume/CV Theme for Developers"
-    author = "Pavel Kanyshev"
+    description = "Resumen/CV de un Cosultor Funcional y Desarrollador"
+    author = "David Palazón"
 
 # Theme styles
 
@@ -60,17 +60,36 @@ disable404 = false
         url = "//linkedin.com/in/david-palaz%C3%B3n-bermudez-b34a0a17/"
         title = "linkedin.com/david-palazon-bermudez"
 
-   #     [[params.contact.list]]
-   #     class = "github"
-   #     icon = "fa-github"
-   #     url = "//github.com/username"
-   #     title = "github.com/username"
+        [[params.contact.list]]
+        class = "github"
+        icon = "fa-github"
+        url = "//github.com/Palpid"
+        title = "github.com/Palpid"
 
-   #     [[params.contact.list]]
-   #     class = "twitter"
-   #     icon = "fa-twitter"
-   #     url = "//twitter.com/username"
-   #     title = "@twittername"
+        [[params.contact.list]]
+        class = "flickr"    
+        icon = "fa-flickr"
+        url = "//www.flickr.com/photos/palpid/"
+        title = "Fotos flickr"
+
+        [[params.contact.list]]
+        class = "twitter"
+        icon = "fa-twitter"
+        url = "//twitter.com/DavidBermd"
+        title = "@DavidBermd"
+
+        [[params.contact.list]]
+        class = "facebook"
+        icon = "fa-facebook-square"
+        url = "//www.facebook.com/Palpid/about"
+        title = "Facebook"
+
+
+        [[params.contact.list]]
+        class = "xing"
+        icon = "fa-xing"
+        url = "//www.xing.com/profile/David_PalazonBermudez?sc_o=mxb_p"
+        title = "Xing"
 
     # Education section
     [params.education]
@@ -242,33 +261,86 @@ disable404 = false
 
     # Skills section
     [params.skills]
-        enable = false
+        enable = true
         icon = "fa-rocket"
         title = "Skills & Proficiency"
 
         [[params.skills.list]]
-        skill = "Python & Django"
-        level = "98%"
-                
+        skill = "ERP:RPS"
+        level = "90%"
+
         [[params.skills.list]]
-        skill = "Javascript & jQuery"
+        skill = "ERP:SAP business ONE (Funcional)"
+        level = "90%"
+
+         [[params.skills.list]]
+        skill = "ERP:SAP business ONE (Técnico)"
         level = "98%"
 
         [[params.skills.list]]
-        skill = "Angular"
+        skill = "ERP:Exact Globe"
+        level = "80%"
+
+         [[params.skills.list]]
+        skill = "ERP:Exact Synergy"
+        level = "85%"
+
+        [[params.skills.list]]
+        skill = "Programming Languages: C#"
         level = "95%"
 
-        [[params.skills.list]]
-        skill = "HTML5 & CSS"
-        level = "95%"
 
-        [[params.skills.list]]
-        skill = "Ruby on Rails"
+      [[params.skills.list]]
+        skill = "Programming Languages:HTML5 & CSS"
         level = "75%"
 
         [[params.skills.list]]
-        skill = "Sketch & Photoshop"
+        skill = "Programming Languages:Clipper & FoxBase"
+        level = "95%"
+
+        [[params.skills.list]]
+        skill = "Programming Languages:Delphi"
+        level = "92%"
+
+        [[params.skills.list]]
+        skill = "Programming Languages:Visual Basic .NET & 6.0"
+        level = "92%"
+
+      
+
+        [[params.skills.list]]
+        skill = "Programming Languages:T-SQL"
+        level = "95%"
+
+         [[params.skills.list]]
+        skill = "Programming Languages:PL-SQL"
+        level = "95%"
+
+        [[params.skills.list]]
+        skill = "Programming Languages:Javascript & jQuery"
         level = "60%"
+
+        [[params.skills.list]]
+        skill = "Database: MSSQL"
+        level = "95%"
+
+        [[params.skills.list]]
+        skill = "Database: Oracle"
+        level = "75%"
+
+          [[params.skills.list]]
+        skill = "Database:Mysql"
+        level = "90%"
+
+     [[params.skills.list]]
+        skill = "Database:Interbase/Firebird"
+        level = "90%"
+
+     [[params.skills.list]]
+        skill = "Database:XBase"
+        level = "95%"
+
+    
 
     # Footer section
 
