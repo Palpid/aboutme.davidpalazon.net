@@ -1,4 +1,6 @@
-baseURL = "http://aboutme.davidpalazon.net/"
+#baseURL = "http://aboutme.davidpalazon.net/"
+
+baseURL = "https://gallant-hopper-620d9c.netlify.com/"
 languageCode = "es-ES"
 title = "Acerca de Mi"
 theme = "hugo-orbit-theme"
