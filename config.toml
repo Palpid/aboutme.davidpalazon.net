@@ -2,6 +2,7 @@
 
 baseURL = "https://gallant-hopper-620d9c.netlify.com/"
 languageCode = "es-ES"
+language="ES'
 title = "Acerca de Mi"
 theme = "MyTheme"
 googleAnalytics = "UA-130603541-1"
