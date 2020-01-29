@@ -3,7 +3,7 @@
 baseURL = "https://gallant-hopper-620d9c.netlify.com/"
 languageCode = "es-ES"
 title = "Acerca de Mi"
-theme = "hugo-orbit-theme"
+theme = "MyTheme"
 googleAnalytics = "UA-130603541-1"
 
 # Do not build files for websites. Need them? Set to false
