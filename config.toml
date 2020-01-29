@@ -15,7 +15,7 @@ disable404 = false
 
 # Meta
     description = "Resumen/CV de un Cosultor Funcional y Desarrollador"
-    author = "David Palazón"
+    author = "David Palazón Bermúdez"
 
 # Theme styles
 
@@ -96,7 +96,7 @@ disable404 = false
     # Education section
     [params.education]
         enable = true
-        title = "Educacion"
+        title = "Educación"
 
         [[params.education.list]]
         degree = "Técnico Especialista Equipos Informáticos."
@@ -118,7 +118,7 @@ disable404 = false
     # Languages section
     [params.language]
         enable = true
-        title = "Languages"
+        title = "Idiomas"
 
         [[params.language.list]]
         language = "English"
@@ -140,16 +140,19 @@ disable404 = false
     # Interests section
     [params.interests]
         enable = true
-        title = "Interests"
+        title = "Aficiones"
 
         [[params.interests.list]]
-        interest = "Climbing"
+        interest = "montañismo"
+
+        [[params.interests.list]]
+        interest = "senderismo"
 
         [[params.interests.list]]
         interest = "Snowboarding"
 
         [[params.interests.list]]
-        interest = "Cooking"
+        interest = "KiteBuggy"
 
 # Main body sections
 
@@ -265,7 +268,7 @@ disable404 = false
     [params.skills]
         enable = true
         icon = "fa-rocket"
-        title = "Skills & Proficiency"
+        title = "Habilidades y competencias (Skills & Proficiency)"
 
         [[params.skills.list]]
         skill = "ERP:RPS"
